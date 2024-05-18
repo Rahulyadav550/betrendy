@@ -47,16 +47,14 @@
       animation: left-right-1 3sec linear infinite;
 } 
   .hero .anime2{
-      animation: left-right-2 4sec ease-in-out infinite;
-      -webkit-animation: left-right-2 4sec ease-in-out infinite;
+      animation: left-right-1 4sec ease-in-out infinite;
 } 
 .hero .anime3{
-      animation: left-right-1 3sec linear infinite;
-      -webkit-animation: left-right-1 3sec linear infinite;
+      animation: left-right-2 3sec linear infinite;
 }
 /* Hero section swiper css end */
-/* Arrival section swiper css stat */
-/* Arrival section swiper css end */
+/* Arrival section stat */
+/* Arrival section  end */
 
 /* Animation section start */
 @keyframes left-right-1 {

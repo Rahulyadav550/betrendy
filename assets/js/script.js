@@ -26,5 +26,17 @@ function displayclock(){
 setInterval(displayclock,1000);
 // Time function end
 
+// great deal section start
+let greatDeal = document.querySelector(".great-deal");
+     setInterval(()=>{
+                greatDeal.style.backgroundImage="url(./assets/img/bg-deal-3.jpg)";
+                greatDeal.style.transition = "linear 0.9s all"
+   },3000)
+   setInterval(()=>{
+    greatDeal.style.backgroundImage="url(./assets/img/bg-deal-2.jpg)";
+    greatDeal.style.transition = "linear 0.9s all"
+},6000)
+// great deal section end
+
 
 
